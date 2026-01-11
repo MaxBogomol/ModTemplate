@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GPL-2.0"
+
+[[mods]]
+    modId="mod_template"
+    version="${file.jarVersion}"
+    updateJSONURL = "https://raw.githubusercontent.com/MaxBogomol/ModTemplate/refs/heads/master/update.json"
+    displayName="Mod Template"
+    logoFile="mod_template.png"
+    authors="MaxBogomol"
+    description="Adds template things"
+
+[[dependencies.mod_template]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mod_template]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mod_template]]
+    modId = "fluffy_fur"
+    mandatory = true
+    versionRange = "[1.20.1-0.2.4,)"
+    ordering = "AFTER"
+    side = "BOTH"
