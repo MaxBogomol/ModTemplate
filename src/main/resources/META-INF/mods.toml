@@ -1,13 +1,14 @@
 modLoader="javafml"
 loaderVersion="[47,)"
 license="GPL-2.0"
+issueTrackerURL="https://github.com/MaxBogomol/ModTemplate/issues"
 
 [[mods]]
     modId="mod_template"
     version="${file.jarVersion}"
+    displayName="Mod Template"
     updateJSONURL = "https://raw.githubusercontent.com/MaxBogomol/ModTemplate/refs/heads/master/update.json"
     displayURL = "https://fluffy-village.dev"
-    displayName="Mod Template"
     logoFile="mod_template.png"
     authors="MaxBogomol"
     description="Adds template things"
